@@ -12,7 +12,7 @@ body {
 /* ... (otros estilos) */
 
 img {
-  display: block;
+  display: 1px;;
   max-width: 100%;
   height: auto;
   margin: 20px auto;
@@ -22,7 +22,7 @@ img {
 }
 
 video {
-  display: block;
+  display: 1px;
   max-width: 100%;
   height: auto;
   margin: 2px auto;
