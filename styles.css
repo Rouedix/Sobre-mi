@@ -12,13 +12,12 @@ body {
 /* ... (otros estilos) */
 
 img {
-  display: 1px;;
+  display: block;
   max-width: 100%;
   height: auto;
-  margin: 20px auto;
+  margin: 25px auto;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(8, 8, 8, 0.3);
-  width: 150px; /* Ajusta el valor para cambiar el tamaño de la imagen */
+  box-shadow: 0 0 10px rgba(29, 21, 21, 0.271);
 }
 
 video {
@@ -43,37 +42,14 @@ h1 {
   margin: 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 25px auto;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(29, 21, 21, 0.271);
-}
-
-nav {
-  background-color: #000000;
-  padding: 5px;
-  text-align: center;
-}
-
-nav a {
-  color: #130707;
-  text-decoration: none;
-  margin: 5px;
-  padding: 8px 12px;
-  border-radius: 5px;
-  transition: background-color 0.2s;
-}
-
-nav a:hover {
-  background-color: #000000;
-  color: #fff;
-}
-
 main {
   padding: 20px;
+}
+
+li {
+  border: 2px solid black;
+  margin: 50px;
+  padding: 1px;
 }
 
 article {
